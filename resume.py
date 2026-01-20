@@ -161,7 +161,7 @@ with st.container():
     """, unsafe_allow_html=True)
 
 # --- АНАЛИТИКА (ИЗ ОТЧЕТА) ---
-st.markdown(f"### 📊 Компетенции и Психология <span style='font-size:0.6em; color:#888'>(на основе оценки SberQ)</span>", unsafe_allow_html=True)
+st.markdown(f"### 📊 Компетенции и Психология <span style='font-size:0.6em; color:#888'>(на основе оценки SberQ уровень руководителя С-level)</span>", unsafe_allow_html=True)
 
 col1, col2 = st.columns(2)
 
@@ -224,15 +224,14 @@ with col2:
     st.plotly_chart(fig_radar, use_container_width=True, config={'displayModeBar': False})
 
 # Доп метрики
-c1, c2, c3, c4 = st.columns(4)
+c1, c2, c3 = st.columns(3)
 with c1:
     st.metric(label="Эмоциональный интеллект", value="108", delta="Высокий средний")
 with c2:
-    st.metric(label="MNPS команды", value="98%")
+    st.metric(label="mNPS руководителя", value="98%")
 with c3:
-    st.metric(label="Доля голоса (SoV)", value="10%", delta="2-е место на рынке")
-with c4:
-    st.metric(label="Рост знания (Awareness)", value="+38%")
+    st.metric(label="MBTI", value="ENFJ")
+
 
 st.markdown("---")
 
