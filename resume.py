@@ -117,8 +117,8 @@ with st.sidebar:
     
     # Ссылки
     st.markdown(f"""
-    <a href='https://t.me/temapromo' target='_blank' style='background-color:{COLOR_ACCENT}; color:#1E1E1E; padding:10px; display:block; text-align:center; border-radius:5px; margin-bottom:10px; font-weight:bold;'>Telegram</a>
-    <a href='https://wa.me/79893009234' target='_blank' style='background-color:{COLOR_ACCENT}; color:#1E1E1E; padding:10px; display:block; text-align:center; border-radius:5px; font-weight:bold;'>WhatsApp</a>
+    <a href='https://t.me/temapromo' target='_blank' style='background-color:#1E1E1E; color:{COLOR_ACCENT}; padding:10px; display:block; text-align:center; border-radius:5px; margin-bottom:10px; font-weight:bold;'>Telegram</a>
+    <a href='https://wa.me/79893009234' target='_blank' style='background-color:#1E1E1E; color:{COLOR_ACCENT}; padding:10px; display:block; text-align:center; border-radius:5px; font-weight:bold;'>WhatsApp</a>
     """, unsafe_allow_html=True)
 
     st.markdown("---")
